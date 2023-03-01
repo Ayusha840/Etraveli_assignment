@@ -1,0 +1,33 @@
+.moviesMainWrapper {
+    height: 100%;
+    .moviesRowWrapper {
+        display: flex;
+        height: calc(100% - 58px);
+        .movieTitleWrapper {
+            border-right: 1px solid;
+            .movie-name-wrapper {
+                padding: 15px;
+                border-bottom: 2px solid #dedede;
+                font-size: 14px;
+                width: 100%;
+                cursor: pointer;
+                .name-sub-wrapper{
+                    display: flex;
+                    width: 80%;
+                    .date {
+                        margin-left: auto;
+                    }
+                }
+                .episode {
+                    width: 20%;
+                }
+                .title {
+                    font-weight: bold;
+                }
+            }
+        }
+        .movieContentWrapper {
+            position: relative;
+        }
+    }
+}
